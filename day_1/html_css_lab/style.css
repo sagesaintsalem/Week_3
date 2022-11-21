@@ -1,0 +1,39 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+body > header {
+    background-color: dodgerblue;
+    padding: 16px;
+    color: white;
+}
+
+header > nav > ul {
+    list-style: none;
+}
+
+header > nav > ul > li > a {
+    color: white;
+}
+
+body > footer {
+    background-color: dodgerblue;
+    padding: 16px;
+    color: white;
+    text-align:center;
+}
+
+body > main > article {
+    margin: auto;
+    width: 70%;
+}
+
+.comments {
+    padding: 5px;
+}
+
+.fake_comment {
+    border-top: 1px solid black;
+    padding: 5px;
+}
