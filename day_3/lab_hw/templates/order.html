@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <h2 class="title">Order Details: No. {{ orders.index(order) }}</h2>
+            <div class="order_deets">
+                <p><b>Name:</b> {{ order.customer_name }} </p>
+                <p><b>Order Date:</b> {{ order.order_date }} </p>
+                <p><b>Game Title:</b> {{ order.game_title }} </p>
+                <p><b>Quantity ordered:</b> {{ order.quantity }} </p>
+            </div>
+            <div id="link_list">
+                <br>
+                <a href="/order/0">Order No.0</a>
+                <br>
+                <a href="/order/1">Order No.1</a>
+                <br>
+                <a href="/order/2">Order No.2</a>
+            </div>
+            <a href="/order" id="index">Index</a>
+    </body>
+</html>
+

@@ -1,0 +1,58 @@
+body {
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.order_deets {
+    background-color: #fff;
+    width: 200%;
+    margin-left: -6px;
+    padding: 1rem;
+}
+
+#link_list > a {
+    color:black;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 700;
+}
+
+#link_list > a:visited {
+    color: black;
+}
+
+#link_list > a:hover {
+    color:blueviolet;
+}
+
+#link_list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 110px;
+    padding-top: 1rem;
+}
+
+#index {
+    color:black;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+}
+
+a:hover {
+    color:blueviolet;
+}
+
+a:visited{
+    color:black;
+}
