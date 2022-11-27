@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+
+
+{% block main_content %}
+    <section class="main_things">
+            <section class="book_cards">
+                {% for book in books %}
+                    <div class="card-deck">
+                        <div class="card text-center" style="width: 15rem; border: solid 2px;">
+                            <div class="card-header"><b>{{ book.title }}</b></div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <b>By:</b> 
+                                    {{ book.author }}
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Genre:</b> 
+                                    {{ book.genre }}
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Available: </b>
+                                    {% if book.available %}
+                                        Yes!
+                                    {% else %}
+                                        No                                        
+                                    {% endif %}
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                {% endfor %}
+            </section>
+    </section>
+{% endblock %}

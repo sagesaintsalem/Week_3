@@ -1,0 +1,66 @@
+html {
+    background-color: rgb(249, 110, 205);
+    color: black;
+}
+
+.ribbon > nav {
+    background-color: #BC3BE3;
+    color: rgb(255, 253, 129);
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.linx {
+    list-style: none;
+    marker: none;
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+
+.linx > li > a{
+    padding: 10px;
+    color: rgb(255, 253, 129);
+}
+
+.linx > li > a:visited {
+    color: rgb(255, 253, 129);
+}
+
+.container {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(249, 110, 205);
+    color: black;
+    max-width: 1400px !important;
+}
+
+.main_things {
+    padding: 20px;
+    background-color: rgb(249, 110, 205);
+    color: black;
+    margin:0;
+}
+
+.book_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 20px;
+    
+}
+
+.book_removal {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(249, 110, 205);
+}
+

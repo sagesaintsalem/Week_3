@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block main_content %}
+
+    <section class="book_removal">
+        <form action="" method="post">
+            <select name="title" id="title">
+                {% for book in books %}
+                    <option value="{{ book.title }}">{{ book.title }}</option>
+                {% endfor %}
+            </select>
+            <input type="submit" value="Remove">
+        </form>
+
+    </section>
+<!-- I would like to add a dialog box here asking "Are you sure you want to remove this book?" in future -->
+{% endblock %}
